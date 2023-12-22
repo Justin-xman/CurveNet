@@ -1,0 +1,256 @@
+Namespace(exp_name='curvenet_seg16', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg_16/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Namespace(exp_name='curvenet_seg16', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947879, test avg acc: 0.864845, test iou: 0.858516
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.822 num: 14
+idx: 2 mIoU: 0.890 num: 11
+idx: 3 mIoU: 0.797 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.772 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.850 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.660 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.588 num: 12
+idx: 14 mIoU: 0.741 num: 31
+idx: 15 mIoU: 0.822 num: 848
+Namespace(exp_name='curvenet_seg16', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.951824, test avg acc: 0.892571, test iou: 0.872863
+idx: 0 mIoU: 0.878 num: 341
+idx: 1 mIoU: 0.833 num: 14
+idx: 2 mIoU: 0.926 num: 11
+idx: 3 mIoU: 0.810 num: 158
+idx: 4 mIoU: 0.927 num: 704
+idx: 5 mIoU: 0.841 num: 14
+idx: 6 mIoU: 0.930 num: 159
+idx: 7 mIoU: 0.880 num: 80
+idx: 8 mIoU: 0.875 num: 286
+idx: 9 mIoU: 0.952 num: 83
+idx: 10 mIoU: 0.675 num: 51
+idx: 11 mIoU: 0.957 num: 38
+idx: 12 mIoU: 0.847 num: 44
+idx: 13 mIoU: 0.639 num: 12
+idx: 14 mIoU: 0.737 num: 31
+idx: 15 mIoU: 0.836 num: 848
+Namespace(exp_name='curvenet_seg16', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.954937, test avg acc: 0.900038, test iou: 0.882314
+idx: 0 mIoU: 0.886 num: 341
+idx: 1 mIoU: 0.859 num: 14
+idx: 2 mIoU: 0.919 num: 11
+idx: 3 mIoU: 0.817 num: 158
+idx: 4 mIoU: 0.929 num: 704
+idx: 5 mIoU: 0.841 num: 14
+idx: 6 mIoU: 0.944 num: 159
+idx: 7 mIoU: 0.890 num: 80
+idx: 8 mIoU: 0.883 num: 286
+idx: 9 mIoU: 0.956 num: 83
+idx: 10 mIoU: 0.685 num: 51
+idx: 11 mIoU: 0.971 num: 38
+idx: 12 mIoU: 0.866 num: 44
+idx: 13 mIoU: 0.668 num: 12
+idx: 14 mIoU: 0.755 num: 31
+idx: 15 mIoU: 0.852 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947879, test avg acc: 0.864845, test iou: 0.858516
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.822 num: 14
+idx: 2 mIoU: 0.890 num: 11
+idx: 3 mIoU: 0.797 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.772 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.850 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.660 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.588 num: 12
+idx: 14 mIoU: 0.741 num: 31
+idx: 15 mIoU: 0.822 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947767, test avg acc: 0.864459, test iou: 0.858603
+idx: 0 mIoU: 0.855 num: 341
+idx: 1 mIoU: 0.821 num: 14
+idx: 2 mIoU: 0.891 num: 11
+idx: 3 mIoU: 0.798 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.775 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.891 num: 80
+idx: 8 mIoU: 0.850 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.659 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.589 num: 12
+idx: 14 mIoU: 0.740 num: 31
+idx: 15 mIoU: 0.821 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947886, test avg acc: 0.864260, test iou: 0.858987
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.819 num: 14
+idx: 2 mIoU: 0.890 num: 11
+idx: 3 mIoU: 0.798 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.770 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.849 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.660 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.588 num: 12
+idx: 14 mIoU: 0.740 num: 31
+idx: 15 mIoU: 0.824 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947811, test avg acc: 0.863552, test iou: 0.859001
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.824 num: 14
+idx: 2 mIoU: 0.889 num: 11
+idx: 3 mIoU: 0.797 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.771 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.849 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.657 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.586 num: 12
+idx: 14 mIoU: 0.741 num: 31
+idx: 15 mIoU: 0.823 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947732, test avg acc: 0.863319, test iou: 0.858936
+idx: 0 mIoU: 0.853 num: 341
+idx: 1 mIoU: 0.820 num: 14
+idx: 2 mIoU: 0.889 num: 11
+idx: 3 mIoU: 0.798 num: 158
+idx: 4 mIoU: 0.914 num: 704
+idx: 5 mIoU: 0.751 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.851 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.658 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.829 num: 44
+idx: 13 mIoU: 0.583 num: 12
+idx: 14 mIoU: 0.742 num: 31
+idx: 15 mIoU: 0.824 num: 848
+Namespace(exp_name='curvenet_seg16_MSADGC_SPFF', dataset='shapenetpart', class_choice=None, batch_size=16, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_seg16_MSADGC_SPFF/models/model.pth')
+random seed is: 1628
+Let's use cuda:0
+Test :: test acc: 0.947493, test avg acc: 0.863181, test iou: 0.858548
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.816 num: 14
+idx: 2 mIoU: 0.891 num: 11
+idx: 3 mIoU: 0.798 num: 158
+idx: 4 mIoU: 0.914 num: 704
+idx: 5 mIoU: 0.754 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.889 num: 80
+idx: 8 mIoU: 0.852 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.656 num: 51
+idx: 11 mIoU: 0.953 num: 38
+idx: 12 mIoU: 0.828 num: 44
+idx: 13 mIoU: 0.587 num: 12
+idx: 14 mIoU: 0.741 num: 31
+idx: 15 mIoU: 0.823 num: 848
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Test :: test acc: 0.947878, test avg acc: 0.864678, test iou: 0.858588
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.820 num: 14
+idx: 2 mIoU: 0.890 num: 11
+idx: 3 mIoU: 0.797 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.749 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.851 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.659 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.590 num: 12
+idx: 14 mIoU: 0.740 num: 31
+idx: 15 mIoU: 0.822 num: 848
+Test :: test acc: 0.947878, test avg acc: 0.864678, test iou: 0.858588
+idx: 0 mIoU: 0.854 num: 341
+idx: 1 mIoU: 0.820 num: 14
+idx: 2 mIoU: 0.890 num: 11
+idx: 3 mIoU: 0.797 num: 158
+idx: 4 mIoU: 0.915 num: 704
+idx: 5 mIoU: 0.749 num: 14
+idx: 6 mIoU: 0.921 num: 159
+idx: 7 mIoU: 0.892 num: 80
+idx: 8 mIoU: 0.851 num: 286
+idx: 9 mIoU: 0.962 num: 83
+idx: 10 mIoU: 0.659 num: 51
+idx: 11 mIoU: 0.954 num: 38
+idx: 12 mIoU: 0.831 num: 44
+idx: 13 mIoU: 0.590 num: 12
+idx: 14 mIoU: 0.740 num: 31
+idx: 15 mIoU: 0.822 num: 848
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu
+Namespace(batch_size=16, class_choice=None, cm=True, dataset='shapenetpart', epochs=200, eval=True, exp_name='curvenet_seg_MSADGC_SPFF', lr=0.001, model_path='../checkpoints/curvenet_seg_MSADGC_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 1628
+Let's use cpu

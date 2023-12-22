@@ -1,0 +1,65 @@
+Namespace(exp_name='curvenet_cls_4', dataset='modelnet40', batch_size=32, test_batch_size=16, epochs=200, use_sgd=False, lr=0.001, momentum=0.9, scheduler='cos', eval=True, num_points=2048, model_path='../checkpoints/curvenet_cls_4/models/model.pth')
+random seed is: 4036
+Let's use cuda:0
+Test :: test acc: 0.935170 , test avg acc: 0.907035
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Test :: test acc: 0.918152 , test avg acc: 0.883006
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Test :: test acc: 0.934360 , test avg acc: 0.906535
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Test :: test acc: 0.934360 , test avg acc: 0.906535
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=128, scheduler='cos', test_batch_size=50, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=128, scheduler='cos', test_batch_size=50, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=1024, scheduler='cos', test_batch_size=32, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=128, scheduler='cos', test_batch_size=50, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=512, scheduler='cos', test_batch_size=100, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=512, scheduler='cos', test_batch_size=100, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=128, scheduler='cos', test_batch_size=120, use_sgd=False)
+random seed is: 5841
+Let's use cpu
+Namespace(batch_size=32, cm=True, dataset='modelnet40', epochs=200, eval=True, exp_name='curvenet_cls_DGCNN_SPFF', lr=0.001, model_path='../checkpoints/curvenet_cls_DGCNN_SPFF/models/model.pth', momentum=0.9, num_points=64, scheduler='cos', test_batch_size=100, use_sgd=False)
+random seed is: 5841
+Let's use cpu

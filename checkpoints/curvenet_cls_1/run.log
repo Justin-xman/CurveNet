@@ -1,0 +1,20 @@
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 7059
+Let's use cpu
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 3919
+Let's use cpu
+Use AdamW
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 3110
+Let's use cpu
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 2955
+Let's use cpu
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 6982
+Let's use cpu
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='curvenet_cls_1', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=False)
+random seed is: 7517
+Let's use cpu
+Use AdamW

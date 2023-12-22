@@ -1,0 +1,22 @@
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='exp', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=True)
+random seed is: 7748
+Let's use cpu
+Use SGD
+Namespace(batch_size=16, dataset='modelnet40', epochs=200, eval=False, exp_name='exp', lr=0.001, model_path='', momentum=0.9, num_points=2048, scheduler='cos', test_batch_size=16, use_sgd=True)
+random seed is: 2326
+Namespace(batch_size=32, class_choice=None, dataset='shapenetpart', epochs=200, eval=False, exp_name='exp', lr=0.0005, model_path='', momentum=0.9, no_cuda=False, num_points=2048, scheduler='step', test_batch_size=16, use_sgd=True)
+random seed is: 335
+Using CPU
+Namespace(batch_size=32, class_choice=None, dataset='shapenetpart', epochs=200, eval=False, exp_name='exp', lr=0.0005, model_path='', momentum=0.9, no_cuda=False, num_points=2048, scheduler='step', test_batch_size=16, use_sgd=True)
+random seed is: 8945
+Using CPU
+Namespace(batch_size=32, class_choice=None, dataset='shapenetpart', epochs=200, eval=False, exp_name='exp', lr=0.0005, model_path='', momentum=0.9, no_cuda=False, num_points=2048, scheduler='step', test_batch_size=16, use_sgd=True)
+random seed is: 6819
+Using CPU
+Let's use0GPUs!
+Namespace(batch_size=32, class_choice=None, dataset='shapenetpart', epochs=200, eval=False, exp_name='exp', lr=0.0005, model_path='', momentum=0.9, no_cuda=False, num_points=2048, scheduler='step', test_batch_size=16, use_sgd=True)
+random seed is: 8176
+Let's use cpu
+Namespace(batch_size=32, class_choice=None, dataset='shapenetpart', epochs=200, eval=False, exp_name='exp', lr=0.0005, model_path='', momentum=0.9, no_cuda=False, num_points=2048, scheduler='step', test_batch_size=16, use_sgd=True)
+random seed is: 9440
+Let's use cpu

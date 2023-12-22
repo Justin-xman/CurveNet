@@ -1,0 +1,50 @@
+from torch import nn
+from einops import pack
+from ..utils.layers import Embedding,down,stage1
+
+class CurveNet(nn.Module):
+    def __init__(self):
+        super(CurveNet, self).__init__()
+        # self.embedding = Embedding()
+        self.stage1 = stage1()
+        self.ds1 = down(1024)
+        self.ds2 = down(512)
+
+        # self.n2p_attention = N2PAttention()
+        # self.n2p_attention1 = N2PAttention()
+        # self.n2p_attention2 = N2PAttention()
+        self.conv = nn.Conv1d(128, 1024, 1)
+        self.conv1 = nn.Conv1d(128, 1024, 1)
+        self.conv2 = nn.Conv1d(128, 1024, 1)
+        self.conv3 = nn.Conv1d(128,1024,1)
+        # self.conv = nn.Conv1d(512, 1024, 1)
+        # self.conv1 = nn.Conv1d(512, 1024, 1)
+        # self.conv2 = nn.Conv1d(512, 1024, 1)
+        self.linear1 = nn.Sequential(nn.Linear(3072, 1024), nn.BatchNorm1d(1024), nn.LeakyReLU(0.2))
+        # self.linear1 = nn.Sequential(nn.Linear(4096, 1024), nn.BatchNorm1d(1024), nn.LeakyReLU(0.2))
+        self.linear2 = nn.Sequential(nn.Linear(1024, 256), nn.BatchNorm1d(256), nn.LeakyReLU(0.2))
+        self.linear3 = nn.Linear(256, 40)
+        self.dp1 = nn.Dropout(0.5)
+        self.dp2 = nn.Dropout(0.5)
+
+    def forward(self, x):
+
+        self.res_link_list = []
+        y = self.stage1(x)  # (B, 3, 2048) -> (B, 128, 2048)
+        # x = self.n2p_attention(x)  # (B, 128, 2048) -> (B, 128, 2048)
+        self.res_link_list.append(self.conv(y).max(dim=-1)[0])  # (B, 128, 2048) -> (B, 1024, 2048) -> (B, 1024)
+        x,y = self.ds1(x,y)  # (B, 128, 2048) -> (B, 128, 1024)
+        # x = self.n2p_attention1(x)  # (B, 128, 1024) -> (B, 128, 1024)
+        self.res_link_list.append(self.conv1(y).max(dim=-1)[0])  # (B, 128, 1024) -> (B, 1024, 1024) -> (B, 1024)
+        x,y = self.ds2(x,y)  # (B, 128, 1024) -> (B, 128, 512)
+        # x = self.n2p_attention2(x)  # (B, 128, 512) -> (B, 128, 512)
+        self.res_link_list.append(self.conv2(y).max(dim=-1)[0])  # (B, 128, 512) -> (B, 1024, 512) -> (B, 1024)
+        # x,y = self.ds3(x,y) # (B, 128, 512) -> (B, 128, 256)
+        # self.res_link_list.append(self.conv3(y).max(dim=-1)[0])  # (B, 128, 256) -> (B, 1024, 256) -> (B, 1024)
+        x, ps = pack(self.res_link_list, 'B *')  # (B, 3072)
+        x = self.linear1(x)  # (B, 3072) -> (B, 1024)
+        x = self.dp1(x)  # (B, 1024) -> (B, 1024)
+        x = self.linear2(x)  # (B, 1024) -> (B, 256)
+        x = self.dp2(x)  # (B, 256) -> (B, 256)
+        x = self.linear3(x)  # (B, 256) -> (B, 40)
+        return x
